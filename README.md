@@ -63,7 +63,7 @@ SICView(
 
 # Architecture
 
-<picture><img src="sources/SimpleImageCachingSwift/Resources/SimpleImageCache_diagram.png" width="500" height="500"/></picture>
+<picture><img src="/Sources/SimpleImageCachingSwift/Resources/SimpleImageCache_diagram.png" width="500" height="500"/></picture>
 
 # Flow
 
@@ -204,14 +204,16 @@ if let finalImage {
 
 # StoragePath (Default / App Group / Custom)
 
-## English  
-> Configure the disk cache location once at app startup. After configuration, you can tune
-disk limits and prune via the coordinator.
+## English
 
-## 한국어  
+> Configure the disk cache location once at app startup. After configuration, you can tune
+> disk limits and prune via the coordinator.
+
+## 한국어
+
 > 앱 시작 시 디스크 캐시 경로를 설정할 수 있습니다.  
-설정 후에는 coordinator로 디스크 제한과 prune을  
-제어할 수 있습니다.
+> 설정 후에는 coordinator로 디스크 제한과 prune을  
+> 제어할 수 있습니다.
 
 ```swift
 // Configure disk cache location.
@@ -241,7 +243,6 @@ Task {
 > 동작을 직접 보실 수 있습니다.
 
 ![DemoExample](/Sources/SimpleImageCachingSwift/Resources/DemoExample.gif)
-
 
 # License
 
